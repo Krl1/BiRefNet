@@ -3,7 +3,7 @@ from functools import partial
 import torch
 import torch.nn as nn
 
-from timm.layers import DropPath, to_2tuple, trunc_normal_
+from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 
 from config import Config
 
